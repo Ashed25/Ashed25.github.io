@@ -9,8 +9,16 @@ const CONFIG = {
   ],
   hideRepos: ["Ashed25.github.io"], // repo names to leave out
 
+  // Display names for repos (otherwise "my-repo" shows as "My Repo").
+  titles: {
+    "u-ahi-fabric-pos": "U Ahi Fabric POS",
+    "slot-demo": "Golden Naga Slots",
+    "pcg-augmentation-research": "PCG Augmentation Research",
+    "Knightfall-unity": "Knightfall",
+  },
+
   // Category -> repo names. Repos not listed here go under "Other".
-  // To give a project a "Try it live" button, set its Website field on GitHub
+  // A project gets a "Try it live" button when its Website field is set on GitHub
   // (repo page -> About -> gear icon), or: gh repo edit Ashed25/<repo> --homepage <url>
   categories: {
     "Web Apps": ["u-ahi-fabric-pos", "Study-Buddy"],
